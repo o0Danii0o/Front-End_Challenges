@@ -1,0 +1,130 @@
+@font-face {
+    font-family: Overpass;
+    src: url("../../Overpass/Overpass-VariableFont_wght.ttf");
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: Overpass;
+    background-color: #141519;
+}
+
+.view1,.view2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 1px solid #262F38;
+    border-radius: 5%;
+    width: 295px;
+    height: 320px;
+    padding: 15px 25px 10px 25px;
+    background-color: #1C232D;
+}
+.view2{
+    display:none;
+}
+
+#img1 {
+    height: 13px;
+    width: 13px;
+    border: 1px solid #262F38;
+    border-radius: 50%;
+    padding: 13px;
+    background-color: #262F38;
+}
+
+h2 {
+    margin: 0px;
+    margin-top: 10px;
+    color: white;
+}
+
+p {
+    font-size: 13px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    line-height: 1.6;
+    color: #7F8891;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+button {
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+ul li a {
+    font-size: 13px;
+    text-decoration: none;
+    border: 1px solid #262F38;
+    border-radius: 50%;
+    padding: 13px 17px 13px 17px;
+    background-color: #262F38;
+    color: #7F8891;
+}
+
+ul li:first-child a {
+    padding: 13px 18px 13px 18px;
+}
+
+button {
+    height: 40px;
+    border: 1px solid #262F38;
+    border-radius: 1.5em;
+    background-color: #FC7613;
+    color: #FFF5D3;
+}
+
+ul li a:hover {
+    background-color: #7C8898;
+    color:white;
+    cursor: pointer;
+}
+
+
+button:hover {
+    background-color: white;
+    color:#E6781F;
+    cursor: pointer;
+}
+
+.view2 {
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+#img2{
+    height:27.5%;
+    width:auto;
+    padding-right:10px;
+}
+#ratingParagraph{
+    padding:4px 15px 0px 15px;
+    margin-top:25px;
+    border: 1px solid #262F38;
+    border-radius: 1.5em;
+    background-color: #262F38;
+    color:#AB6939;
+}
+.view2 h2{
+    margin-top:20px;
+    font-size:22px;
+}
+.view2 p{
+    margin-top:10px;
+    font-size:13px;
+    text-align:center;
+}
